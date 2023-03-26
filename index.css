@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&w=600');
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+   
+}
+.header{
+    text-align: center;
+    font-size: 15px;
+}
+#container{
+    background-color: rgb(192, 219, 219);
+    padding: 20px;
+    height: 300px;
+    width: 350px;
+    padding-right: 30px;
+    border-radius: 7px;
+   
+}
+#select-box1, #select-box2, #worth-scroll-1 ,#worth-scroll-2{
+    padding: 10px;
+}
+#worth-scroll-1{
+    border: none;
+    outline: none;
+    background: none;
+    background-color: none;
+    color: black;
+    text-align: right;
+    padding: 2px;
+    margin-left: 15px;
+    gap: 10px;
+    font-size: large;
+}
+#worth-scroll-2{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    text-align: right;
+    
+    font-size: large;
+}
+.child-container-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.child-container-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.foot-container{
+  text-align: center;
+  margin-top: 60px;
+  font-size: large;
+  font-weight:lighter;
+ 
+}
